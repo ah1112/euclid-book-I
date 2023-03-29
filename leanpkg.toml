@@ -1,0 +1,8 @@
+[package]
+name = "euclid-book-I"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.50.3"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "b685f506164f8d17a6404048bc4d696739c5d976"}
